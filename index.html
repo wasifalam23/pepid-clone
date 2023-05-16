@@ -35,7 +35,7 @@
             </button>
             <!-- Dropdown menu -->
             <div
-              class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+              class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 !translate-x-[1730px] !translate-y-[68px]"
               id="user-dropdown"
             >
               <div class="px-4 py-3">
@@ -261,6 +261,419 @@
         <img src="./assets/medical-content-2.jpg" alt="" />
       </div>
     </div>
+
+    <!------------------------------- WELCOME TO PEPID ------------------------------->
+    <section>
+      <div class="bg-[url('./assets/bg-3.png')] bg-cover pb-12">
+        <div
+          class="w-4/5 pt-20 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center"
+        >
+          <div>
+            <p class="text-white text-lg font-semibold mb-4">
+              Everything you need in one powerful app
+            </p>
+            <h1
+              class="uppercase text-white text-3xl md:text-5xl font-semibold mb-12"
+            >
+              welcome to pepid.
+            </h1>
+            <p class="text-white text-lg md:text-xl mb-8">
+              Established in 1994, PEPID’s complete catalog of healthcare
+              information solutions supports thousands of institutions across
+              the globe. Extensive, intuitive, and easily integrated – PEPID’s
+              clinical and drug databases strengthen critical decision-making at
+              any point-of-care and beyond.WATCH OVERVIEW VIDEO
+            </p>
+            <button
+              class="uppercase font-bold text-white bg-red-600 text-2xl hover:bg-red-500 px-6 py-2 rounded-full"
+            >
+              watch overview video
+            </button>
+          </div>
+
+          <div>
+            <img src="./assets/welcome-pepid.png" alt="doctor" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- LEGACY ------------------------------->
+    <section class="pt-12 pb-24 border border-b-slate-300">
+      <div class="px-6 lg:w-2/3 mx-auto flex flex-col items-center">
+        <img src="./assets/logo-2.png" alt="logo-2" />
+        <h2 class="text-blue-600 font-semibold text-2xl md:text-4xl mb-6">
+          This is Our Legacy.
+        </h2>
+        <p class="text-base mb-6">
+          As a training physician, Dr. Rosenbloom’s lab coat pockets overflowed
+          with his handwritten, detailed medical and drug reference notes he
+          realized it was invaluable in making diagnostic and therapeutic
+          decisions. When the first personal digital assistants were released,
+          Dr. Rosenbloom copied all of his notes into his handheld computer’s
+          phone book.
+        </p>
+        <img src="./assets/book.png" alt="laptop-book" class="mb-6" />
+        <h2 class="text-blue-600 font-semibold text-2xl md:text-4xl mb-6">
+          To Every Modern Device
+        </h2>
+        <p class="text-base mb-6">
+          Colleagues encouraged Dr. Rosenbloom to expand his electronic notes
+          into a portable, comprehensive medical and drug resource for more
+          widespread use. As a result, in 1994, Dr. Rosenbloom developed the
+          first version of PEPID with an advisory board of more than 35
+          board-certified physicians and pharmacologists.
+        </p>
+        <h2 class="text-blue-600 font-semibold text-2xl md:text-4xl mb-2">
+          Where does PEPID content come from?
+        </h2>
+        <p class="text-xl font-medium capitalize mb-6">
+          trusted content partners. frequent updates. peer-Reviewed.
+        </p>
+
+        <button
+          class="uppercase font-bold text-white bg-blue-500 text-2xl hover:bg-blue-600 px-6 py-2 rounded-full"
+        >
+          find out
+        </button>
+      </div>
+    </section>
+
+    <!------------------------------- CAROUSEL ------------------------------->
+    <section class="mt-6">
+      <div
+        id="indicators-carousel"
+        class="relative"
+        data-carousel="slide"
+        data-testid="carousel"
+      >
+        <!-- Carousel wrapper -->
+        <div class="relative h-80 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div
+              class="w-3/4 text-center absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <h2 class="text-2xl md:text-3xl font-semibold mb-3">
+                I use PEPID all the time in the ED and have for years. I
+                appreciate all the effort and the good solid product. More than
+                once I have been a better doctor because of PEPID."
+              </h2>
+              <p class="text-slate-700 text-lg md:text-2xl font-semibold">
+                Alex Mohseni, MD
+              </p>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div
+              class="text-center absolute block w-3/4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <h2 class="text-2xl md:text-3xl font-semibold mb-3">
+                PEPID is a comprehensive, reliable tool that you’ll use almost
+                as often as your stethoscope.
+              </h2>
+              <p class="text-slate-700 text-lg md:text-2xl font-semibold">
+                Alex Mohseni, MD
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div
+          class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-2 left-1/2"
+        >
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="true"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+        </div>
+        <!-- Slider controls -->
+        <button
+          type="button"
+          class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              ></path>
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!------------------------------- GET-STARTED ------------------------------->
+
+    <section class="mb-24 max-lg:px-6">
+      <div class="flex flex-col items-center">
+        <h2 class="text-2xl md:text-3xl font-normal mb-6">
+          Ready to get started?
+        </h2>
+        <button
+          class="uppercase font-bold text-white bg-blue-500 text-2xl hover:bg-blue-600 px-6 py-2 rounded-full"
+        >
+          Start a 2-week free trial
+        </button>
+
+        <img
+          src="./assets/pepid-pulse.png"
+          alt="pepid-pulse-logo"
+          class="my-12"
+        />
+
+        <h2 class="text-2xl md:text-3xl font-normal mb-8 capitalize">
+          timely insights for healthcare experts
+        </h2>
+
+        <div class="lg:w-4/5 xl:w-2/4 flex flex-col items-start">
+          <img
+            src="./assets/omicron.jpg"
+            alt="omicron-image"
+            class="w-full mb-8"
+          />
+
+          <h2
+            class="capitalize text-blue-500 text-xl md:text-3xl font-semibold mb-2"
+          >
+            omicron variant: bA.2
+          </h2>
+          <p class="text-xl">
+            Omicron Variant: BA.2 Sublineage By Hannah Morpurgo and Julia Schurr
+            According to the World Health Organization, by February 19, 2022,
+            BA.2 had been detected in 74 countries and 47 US states. BA.2 is a
+            subvariant of Omicron which, according to studies from the UK and...
+            <span class="text-blue-600 text-xl font-normal">Read More</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- CARDS ------------------------------->
+    <div
+      class="w-4/5 mx-auto grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-0"
+    >
+      <!-- Card 1 -->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./assets/card-img-1.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight dark:text-white text-blue-500"
+            >
+              EUA: Pfizer-BioNtech Covid-19 Vaccine for Children Ages 5-11
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./assets/card-img-2.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white"
+            >
+              Omicron Variant – Preliminary Findings
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Card 3-->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./assets/card-img-3.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white"
+            >
+              Peripheral Nerve Blocks for Headaches in the ED
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="my-24">
+      <div class="flex flex-col gap-2 items-center">
+        <h2
+          class="capitalize text-blue-500 text-xl md:text-3xl font-semibold mb-2"
+        >
+          now what you are looking for?
+        </h2>
+        <button
+          class="uppercase font-bold text-white bg-blue-500 text-2xl hover:bg-blue-600 px-6 py-2 rounded-full"
+        >
+          view other products
+        </button>
+        <span class="inline mt-4 text-lg text-slate-600"
+          >or call us at 888-321-7878</span
+        >
+      </div>
+    </section>
+
+    <footer
+      class="bg-white rounded-lg shadow m-4 mb-0 dark:bg-gray-800 w-full mx-auto fixed z-50 bottom-0"
+    >
+      <div
+        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+      >
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >© 2023
+          <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>.
+          All Rights Reserved.
+        </span>
+        <ul
+          class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+        >
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">About</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
     <script type="module" src="/main.js"></script>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
